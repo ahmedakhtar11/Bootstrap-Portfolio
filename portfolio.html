@@ -1,98 +1,175 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
 
+<head>
+
+
+<meta charset="UTF-8" content="width=device-width, initial-scale=1">
 <title>Basic Portfolio</title>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/cerulean/bootstrap.min.css">
+
+</head>
+
+  <style type="text/css">
+body{
+      background-color: #eeeeee;
+    }
+  #headingsize{
+      font-size: 24px; }
+
+
+    #connectwithme{
+      width: 45px;
+      height: 45px;
+      margin: 0 auto;
+      display: inline;
+     margin-right: 12px;
+     
+    }
+
+    li{
+      display: inline;
+      list-style: none;
+    }
+    #connectme{
+      text-align: center;
+      font-size: 20px;
+    }
+    #bio-image{
+      width: 40%; 
+      height: 30%;
+      float: left;
+	margin-right: 10px;
+    }
+    .footers {
+      position: fixed;
+      bottom: 0;
+      background-color: #34a6e7;
+      color: white;
+      font-size: 12px;
+      text-align: center;
+      height: 7%;
+      width: 100%;
+      padding: 1%;
+    }
+
+    .panel {
+
+
+      margin-top: 140px;}
+
+#jumbotron {
+
+	float: left;
+
+}
+
+.container {
+
+
+}
+
+.col-md-8 {
+
+}
+
+
+
+  </style>
+<!--
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="jumbotron">
+-->
 
 
 <body>
-  <!--HEADER-->
-    <div class="header">
-      <div class="container">
-        <!--Name/Logo-->
-          <h1 id="logo">Ahmed Akhtar</h1>
-        <!--Navigation Bar-->
-        <nav id="bar">
-          <ul>
-            <!--About-->
-            <li><a href="index.html">About</a></li>
-            <div class="verticalLine"></div>
-            <!--Portfolio-->
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <div class="verticalLine"></div>
-            <!--Contact-->
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="bHeading" class="navbar-brand" href="index.html">Ahmed Akhtar</a>
     </div>
-    <!--END OF HEADER-->
 
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="jumbotron">
+				<h2>Portfolio</h2>
+				<hr>
 
-
- <section id="portfolio2">
-<h2>Portfolio</h2>
-<ARTICLE>
-<div class="port">
 <a href="https://www.youtube.com/watch?v=VWvQaIIxApw"><img id="portfoliopage" src="Assets/images/investmentoutcomes.PNG" alt="Ahmed Akhtar" height="200" width="200"></a>
-<div class="box">
-Investment Outcomes
-</div>	
-</div>	
 
-
-<div class="port">
 <a href="https://www.youtube.com/watch?v=etKVNhi8vQY"><img id="portfoliopage" src="Assets/images/linearprogramming.png" alt="Ahmed Akhtar" height="200" width="200"></a>
-<div class="box">
-Linear Programming
-</div>	
-</div>	
-<br>
+
 <br>
 
-<div class="port">
 <a href="https://www.youtube.com/watch?v=HmYzWsE6bBc"><img id="portfoliopage" src="Assets/images/calculatingmortgage.PNG" alt="Ahmed Akhtar" height="200" width="200"></a>
-<div class="box">
-Calculating Mortagage
-</div>	
-</div>	
+	
 
-<div class="port">
 <a href="https://www.youtube.com/watch?v=TTrS4Td_H28"><img id="portfoliopage" src="Assets/images/algebra.PNG" alt="Ahmed Akhtar" height="200" width="200"></a>	
-<div class="box">
-Basic Algebra
-</div>	
-</div>	
-
-</ARTICLE>
-     
-    </section>
-
-     <section id="connectwithme">
-<h3>Connect With Me</h3>
 
 
+		</div>
+   </div>
+      <div class="col-md-3">
+      <div class="panel panel-primary">
+      <div class="panel-heading">
+      <h2 id="connectme" class="panel-title">Connect with Me</h2>
+    </div>
+    <div class="panel-body">
+      <ul>
+              <!-- GitHub--> 
+              <li><a href="https://github.com/ahmedakhtar11">
+                <img src=Assets/images/githubicon.png alt="GitHub" id="connectwithme" class="img-responsive">
+              </a></li>
+              <!-- LinkedIn--> 
+              <li><a href="https://www.linkedin.com/in/ahmedakhtar11/">
+                <img src="Assets/images/linkedinicon.png" alt="LinkedIn" id="connectwithme" class="img-responsive">
+              </a></li>
+              <!-- Stackoverflow--> 
+              <li><a href="https://stackoverflow.com/users/9023714/ahmedakhtar11">
+                <img src="Assets/images/stackoverflowicon.png" alt="Stackoverflow" id="connectwithme" class="img-responsive">
+              </a></li>
+            </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
 
-<a href="https://github.com/ahmedakhtar11"><img id="socialmediaicons" src="Assets/images/githubicon.png" alt="Ahmed Akhtar" height="60" width="60"></a>	
+<!--Footer-->
 
-<a href="https://www.linkedin.com/in/ahmedakhtar11/"><img id="socialmediaicons" src="Assets/images/linkedinicon.png" alt="Ahmed Akhtar" height="60" width="60"></a>
-
-<a href="https://stackoverflow.com/users/9023714/ahmedakhtar11"><img id="socialmediaicons" src="Assets/images/stackoverflowicon.png" alt="Ahmed Akhtar" height="60" width="60"></a>
-
-
-     
-    </section>
-
-<footer>
-
-<div class="footer2">@ Copyright 2017 Ahmed Akhtar</div>
-
+<footer class="container-fluid bg-4 text-center footers">
+  <p>&copy; Copyright 2017 Ahmed Akhtar</p> 
 </footer>
+ 
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
