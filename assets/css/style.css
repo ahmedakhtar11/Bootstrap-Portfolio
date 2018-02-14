@@ -1,9 +1,5 @@
 
 
-/*	
-* {
-
-
 }
 
 body {
@@ -106,15 +102,7 @@ nav li{
 	padding-right: 10px;
 	margin-top: 15px;
 }
-.verticalLine {
-      width: 1px; /* Line width 
-      background-color: #cccccc; /* Line color 
-      height: 17px; /* Override in-line if you want specific height. 
-      float: left;
-      margin-top: 15px;
-      margin-left: 10px;
-      margin-right: 20px;
-}
+
 
 
 .footer2 {
