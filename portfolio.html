@@ -1,213 +1,141 @@
-<!DOCTYPE html>
-<html lang="en-us">
+﻿<!DOCTYPE html>
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
 
+    <!--GetBootStrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<meta charset="UTF-8" content="width=device-width, initial-scale=1">
-<title>Bootstrap Portfolio</title>
+    <!--GetBootStrap JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        /*Footer -CSS-->*/
+        #footers {
+            position: fixed;
+            font-family: 'Helvetica', cursive;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            bottom: 0;
+            height: 60px;
+            line-height: 60px;
+            background-color: #75A6EF;
+            width: 100%;
+            border-top: 1px solid grey;
+        }
 
-<link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/cerulean/bootstrap.min.css">
+        /*Nav Bar Styles*/
+
+        .navbar {
+            background-color: #75A6EF;
+            color: black;
+            font-family: 'Helvetica', cursive;
+        }
+
+        .nav-item {
+            color: white;
+            margin-right: 20px;
+            font-size: 18px;
+        }
+
+        #panel {
+            float: left;
+        }
+    </style>
+
 
 </head>
-
-   <style type="text/css">
- body{
-      background-color: #eeeeee;
-    }
-  #headingsize{
-      font-size: 24px; }
-    #connectwithme{
-      width: 45px;
-      height: 45px;
-      margin: 0 auto;
-      display: inline;
-     margin-right: 12px;
-     
-    }
-    li{
-      display: inline;
-      list-style: none;
-    }
-    #connectme{
-      text-align: center;
-      font-size: 20px;
-    }
-    #bio-image{
-      width: 40%; 
-      height: 30%;
-      float: left;
-	margin-right: 10px;
-    }
-    .footers {
-      position: fixed;
-      bottom: 0;
-      background-color: #34a6e7;
-      color: white;
-      font-size: 12px;
-      text-align: center;
-      height: 7%;
-      width: 100%;
-      padding: 1%;
-    }
-    .panel {
-      margin-top: 80px;}
-     .jumbotron {
-	float: left;
-  border: solid gray 2px;}
-}
-      
-   
-   </style>
-
-
-
- <body>
-
-
-
-<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-
-<a id="headingsize" class="navbar-brand" href="index.html">Ahmed Akhtar</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-
- <div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <div class="jumbotron">
-      <h2>About Me</h2>
-      <br>
- <a href="https://www.youtube.com/watch?v=VWvQaIIxApw"><img id="portfoliopage" src="assets/images/investmentoutcomes.PNG" alt="Ahmed Akhtar" height="200" width="200"></a>
-
-<a href="https://www.youtube.com/watch?v=etKVNhi8vQY"><img id="portfoliopage" src="assets/images/linearprogramming.png" alt="Ahmed Akhtar" height="200" width="200"></a>
-
-<br>
-
-<a href="https://www.youtube.com/watch?v=HmYzWsE6bBc"><img id="portfoliopage" src="assets/images/calculatingmortgage.PNG" alt="Ahmed Akhtar" height="200" width="200"></a>
-	
-
-<a href="https://www.youtube.com/watch?v=TTrS4Td_H28"><img id="portfoliopage" src="assets/images/algebra.PNG" alt="Ahmed Akhtar" height="200" width="200"></a>	
-
-    </div>
-        <div class="row">
-          <div class="col-md-4"> 
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="col-md-3">
-      <div class="panel panel-primary">
-      <div class="panel-heading">
-      <h2 id="connectme" class="panel-title">Connect with Me</h2>
-    </div>
-    <div class="panel-body">
-      <ul>
-              <!-- GitHub--> 
-              <li><a href="https://github.com/ahmedakhtar11">
-                <img src=assets/images/githubicon.png alt="GitHub" id="connectwithme" class="img-responsive">
-              </a></li>
-              <!-- LinkedIn--> 
-              <li><a href="https://www.linkedin.com/in/ahmedakhtar11/">
-                <img src="assets/images/linkedinicon.png" alt="LinkedIn" id="connectwithme" class="img-responsive">
-              </a></li>
-              <!-- Stackoverflow--> 
-              <li><a href="https://stackoverflow.com/users/9023714/ahmedakhtar11">
-                <img src="assets/images/stackoverflowicon.png" alt="Stackoverflow" id="connectwithme" class="img-responsive">
-              </a></li>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            ODakota
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col text-center">
+                <div class="pic"><img src="assets/images/Ahmed.jpg" alt="" class="aboutimage"></div>
+                <h4 class="name"><strong>Project 1</strong></h4>
+                <h6><span>Petinder Petfinder API</span></h6>
+                <div class="social">
+                    <a class="logo" href="https://gelutzu.github.io/Petinder/"><img border="0" alt="Github" src="assets/images/project1.png" /></a>
+                                                   
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <div class="pic"><img src="assets/images/chris3.png" alt="" class="aboutimage"></div>
+                <h4 class="name"><strong>Project 2</strong></h4>
+                <h6><span>ODakota MeetUp App</span></h6>
+                <div class="social">
+                    <a class="logo" href="https://morning-harbor-42739.herokuapp.com/"><img border="0" alt="Github" src="assets/images/project2.png" /></a>
+                                                                                       
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="panel panel-primary" align:"center">
+                    <div class="panel-heading" align:"center">
+                        <h2 id="connectme" class="panel-title">Connect with Me</h2>
+                    </div>
+                    <div class="panel-body" id="panel" align:"center">
+
+                        <!-- GitHub-->
+          
+                            <a href="https://github.com/ahmedakhtar11">
+                                <img src=assets/images/githubicon.png alt="GitHub" id="connectwithme" class="img-responsive">
+                            </a>
+
+                        <!-- LinkedIn-->
+         
+                            <a href="https://www.linkedin.com/in/ahmedakhtar11/">
+                                <img src="assets/images/linkedinicon.png" alt="LinkedIn" id="connectwithme" class="img-responsive">
+                            </a>
+
+                        <!-- Stackoverflow-->
+          
+                            <a href="https://stackoverflow.com/users/9023714/ahmedakhtar11">
+                                <img src="assets/images/stackoverflowicon.png" alt="Stackoverflow" id="connectwithme" class="img-responsive">
+                            </a>
+        
+                    </div>
+                        </div>
+            </div>
+
+            </div>
+            </div>
+
+
     </div>
-  </div>
-  </div>
-  </div>
-</div>
-
-<!--Footer-->
-
-<footer class="container-fluid bg-4 text-center footers">
-  <p>&copy; Copyright 2017 Ahmed Akhtar</p> 
-</footer>
 
 
-  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-
-
+    <!--Adding Footer Bootstrap-->
+    <footer id="footers" class="fluid-container text-center footers">
+        Copyright 2018 ODakota
+    </footer>
 </body>
-	
-
-
-
-
-<!--
-			Navigation Bar
-				<nav id="bar">
-					<ul>
-					About
-						<li><a href="index.html">About</a></li>
-						<div class="verticalLine"></div>
-						Portfolio
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<div class="verticalLine"></div>
-				Contact
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
--->
-
-
-
-<!--
- <section id="portfolio">
-<h2>About Me</h2>
-<ARTICLE>
-<img id="bio-image" src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAARsAAAAJGZhZjAxMjFjLWQxMWQtNDcwOC04NTExLTIyMTVjYmZjYjAwYw.jpg" alt="Ahmed Akhtar">	
-<p style="margin-top: 20 px;"> My name is Ahmed Akhtar and I have a Bachelor's degree in Accounting and Finance.
-	I am also very experienced in Web development and programming. Microsoft Excel, VBA and CRM development are some of the skills that I have the most experience with. I have some experience with Javascript and Git as well.<br><br>
-<strong>I can program nearly any Accounting, Finance or Data Entry related scenario in VBA by creating macros that can do nearly any calculation, reporting or analysis that you can imagine!</strong></p>
-</ARTICLE>
-     
-    </section>
-     <section id="connectwithme">
-<h3>Connect With Me</h3>
-<a href="https://github.com/ahmedakhtar11"><img id="socialmediaicons" src="Assets/images/githubicon.png" alt="Ahmed Akhtar" height="60" width="60"></a>	
-<a href="https://www.linkedin.com/in/ahmedakhtar11/"><img id="socialmediaicons" src="Assets/images/linkedinicon.png" alt="Ahmed Akhtar" height="60" width="60"></a>
-<a href="https://stackoverflow.com/users/9023714/ahmedakhtar11"><img id="socialmediaicons" src="Assets/images/stackoverflowicon.png" alt="Ahmed Akhtar" height="60" width="60"></a>
-</section>
--->
-
-
 </html>
